@@ -17,6 +17,6 @@ Antes de ejecutar el proyecto verifique en el fichero de configuración los dato
 
 ### Pruebas de operación
 
-Una vez levantado el backend posterior a realizar el mvn install y java -jar fichero.jar se ha colocado una fichero de perfil de [Insomia](http://dfdfddf) con los ejemplos para realizar las operaciones de crear un documento, actualizarlo, eliminarlo y listar los documentos colocados en el servidor.
+Una vez levantado el backend posterior a realizar el mvn install y java -jar fichero.jar se ha colocado una fichero de perfil de [Insomia](https://insomnia.rest/) con los ejemplos para realizar las operaciones de crear un documento, actualizarlo, eliminarlo y listar los documentos colocados en el servidor.
 
 
