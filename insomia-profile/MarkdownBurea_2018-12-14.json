@@ -1,0 +1,143 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2018-12-14T07:15:51.451Z",
+	"__export_source": "insomnia.desktop.app:v5.15.0",
+	"resources": [
+		{
+			"_id": "wrk_9b4cecdf257b40ef8d3d8f685be59ffc",
+			"created": 1544758449959,
+			"description": "",
+			"modified": 1544758449959,
+			"name": "MarkdownBurea",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_3b8db8fafd954fb4b8ccd977e246bdf3",
+			"color": null,
+			"created": 1544758450467,
+			"data": {},
+			"isPrivate": false,
+			"modified": 1544758450467,
+			"name": "New Environment",
+			"parentId": "wrk_9b4cecdf257b40ef8d3d8f685be59ffc",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_66235ff4c52f4c6095a3a487ae507b3e",
+			"cookies": [],
+			"created": 1544758450470,
+			"modified": 1544758450470,
+			"name": "Default Jar",
+			"parentId": "wrk_9b4cecdf257b40ef8d3d8f685be59ffc",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_20055f561c9d4d778e09efb6b7816689",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "Ejemplo de entrada de datos 2"
+			},
+			"created": 1544758482450,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_f89fd4a7546b40e289f4d80689d0b592",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1544758482451,
+			"method": "POST",
+			"modified": 1544759934437,
+			"name": "Crear Markdown",
+			"parameters": [],
+			"parentId": "wrk_9b4cecdf257b40ef8d3d8f685be59ffc",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:8082/md-api/add",
+			"_type": "request"
+		},
+		{
+			"_id": "req_6da6142c83c542baa2dbfdcbc8809b21",
+			"authentication": {},
+			"body": {},
+			"created": 1544758778097,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1544758778097,
+			"method": "GET",
+			"modified": 1544758805285,
+			"name": "Listar Markdown",
+			"parameters": [],
+			"parentId": "wrk_9b4cecdf257b40ef8d3d8f685be59ffc",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:8082/md-api/list",
+			"_type": "request"
+		},
+		{
+			"_id": "req_c2d1b6dfb0284c08bbbe68efdfe5923f",
+			"authentication": {},
+			"body": {},
+			"created": 1544759965671,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1544759965671,
+			"method": "DELETE",
+			"modified": 1544761168629,
+			"name": "Eliminar Markdown",
+			"parameters": [],
+			"parentId": "wrk_9b4cecdf257b40ef8d3d8f685be59ffc",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:8082/md-api/delete/2",
+			"_type": "request"
+		},
+		{
+			"_id": "req_b9345fc3e2a2444ebd04f405736897df",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "kkkkkkkkkkkkkkkkkkkkkkk"
+			},
+			"created": 1544761135187,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_2d2f77fa3e3f4cf9bd5846440e3e33ca",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1544761135187,
+			"method": "PUT",
+			"modified": 1544761244211,
+			"name": "Actualizar Markdown",
+			"parameters": [],
+			"parentId": "wrk_9b4cecdf257b40ef8d3d8f685be59ffc",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:8082/md-api/update/1",
+			"_type": "request"
+		}
+	]
+}
